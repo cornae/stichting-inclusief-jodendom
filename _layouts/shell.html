@@ -7,11 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" media="screen" type="text/css" href="/assets/style/base.css"/>
     </head>
-    <body class="{{ page.class }} layout-{{ page.layout }} template-{{ page.template }}">
-        <div id="main">
+    <body class="{{ page.class }} layout-{{ page.layout }} template-{{ layout.template }}">
+        <div id="main"
+             class="variation-{{ layout.template }}">
             {{ content }}
         </div>
-        <div id="site-header">
+        <div id="site-header" 
+             class="variation-{{ layout.template }}">
             <div class="container">
                 <a href="/" 
                    class="logo pat-inject" 

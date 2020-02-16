@@ -34,4 +34,13 @@
             margin-top: -20px;
         }
     }
+
+    &:not(.variation-homepage) {
+        #global-nav {
+            @include screen-size(small) {
+                display: none;
+
+            }
+        }
+    }
 }
