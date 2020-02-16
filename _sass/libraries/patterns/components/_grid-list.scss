@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.pat-grid-list {
+  margin-bottom: 2em;
+  // float: left;
+  width: 100%;
+  border-bottom: 1px solid $colour-base;
+
+  @include clear;
+
+  dt {
+    width: 40%;
+    float: left;
+    font-weight: bold;
+    clear: left;
+    border-top: 1px solid $colour-base;
+    padding-right: 5%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: rgba(0,0,0,0.5);
+    @include box-sizing;
+  }
+
+  dd {
+    width: 60%;
+    margin-right: -100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    display: inline-block;
+    float: left;
+    border-top: 1px solid $colour-base;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    @include box-sizing;
+  }
+
+  & + h2 {
+    clear: both;
+  }
+}

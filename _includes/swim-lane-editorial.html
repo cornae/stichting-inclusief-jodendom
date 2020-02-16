@@ -1,0 +1,18 @@
+<div class="swim-lane" id="swim-lane-editorial">
+    <div class="container">
+        <p class="ankeiler">
+        	{{ page.summary }}
+        </p>
+        <ul class="editorial-nav">
+        	{% for item in site.posts %}
+        		{% if item.parent == 'Editorial lane' %}
+        			<li>
+        				<a href="{{ item.url }}"
+        				   class="pat-inject icon-{{ item.icon }}"
+        				   data-pat-inject="history: record">{{ item.title }}</a>
+        			</li>
+        		{% endif %}
+        	{% endfor %}
+        </ul>
+    </div>
+</div>

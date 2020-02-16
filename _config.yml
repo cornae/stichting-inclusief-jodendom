@@ -1,0 +1,31 @@
+title: Stichting Inclusief Jodendom
+author: Cornelis G. A. Kolbach
+baseurl: /
+domain: stichtinginclusiefjodendom.nl
+media: /media
+markdown: kramdown
+permalink: /:title
+port: 4016
+sass:
+  style: :compressed
+  load_paths:
+    - "_sass"
+    - "patternslib"
+    - "patternslib/_sass"
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - config.codekit
+  - config.rb
+  - node_modules
+  - patternslib/node_modules
+  - Makefile
+  - README.md
+  - bundle-config.js
+  - src/
+  - stamp-npm
+  - stamp-bundler
+  - package.json
+  - package-lock.json
+  - npmshrinkwrap.json
+  - webpack.config.js

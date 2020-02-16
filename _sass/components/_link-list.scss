@@ -1,0 +1,51 @@
+.link-list {
+	li {
+		display: block;
+
+		a {
+			position: relative;
+			padding: 0.6em 0;
+			display: block;
+
+			// &:before {
+			// 	display: inline-block;
+			// 	content: '\e4a2';
+			// 	font-family: fontello;
+			// 	opacity: 0.5;
+			// 	font-size: 0.7em;
+			// 		position: absolute;
+			// 		top: 50%;
+			// 		left: 0;
+			// 		margin-top: -1.4em;
+			// }
+
+			&:before {
+				position: absolute;
+				top: 0;
+				left: 0%;
+				right: 0%;
+				height: 1px;
+				background-color: rgba(0,0,0,0.3);
+				content: ' ';
+			}
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+
+		&:first-child a:before {
+			display: none;
+		}
+
+		&.home {
+			a {
+				&:before {
+					content: '\e4a1';
+				}
+			}
+		}
+	}
+
+}

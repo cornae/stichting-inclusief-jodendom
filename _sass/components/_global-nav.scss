@@ -1,0 +1,15 @@
+#global-nav {
+	float: right;
+	margin: 0 -20px;
+
+	.global-nav-item {
+		display: inline-block;
+		padding: 0 20px;
+		text-decoration: none;
+		color: #666;
+
+		&:hover {
+			text-decoration: underline;;
+		}
+	}
+}

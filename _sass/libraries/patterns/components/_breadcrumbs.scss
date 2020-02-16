@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+.pat-breadcrumbs {
+  position: relative;
+  overflow: hidden;
+
+  &:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 2em;
+    height: 2em;
+    content: " ";
+  
+    background-image: -webkit-linear-gradient(left, $colour-base-light 0%, rgba(240,240,240,0) 100%);
+    background-image: -o-linear-gradient(left, $colour-base-light 0%, rgba(240,240,240,0) 100%);
+    background-image: linear-gradient(to left, $colour-base-light 0%, rgba(240,240,240,0) 100%);
+  
+    @include screen-size(small) {
+      background-image: -webkit-linear-gradient(left, white 0%, rgba(255,255,255,0) 100%);
+      background-image: -o-linear-gradient(left, white 0%, rgba(255,255,255,0) 100%);
+      background-image: linear-gradient(to left, white 0%, rgba(255,255,255,0) 100%);
+    }
+  }
+
+  .button.shift {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 1em;
+    height: 1.2em;
+    background-color: $colour-base-light;
+    @include screen-size(small) {
+      background-color: white;
+    }
+    border-right: 1px solid silver;
+    overflow: hidden;
+    line-height: 1em;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    &:before {
+      font-family: fontello;
+      content: "\e4a1";
+      font-size: 0.5em;
+      width: 2em;
+      height: 2em;
+      display: inline-block;
+      color: gray;
+    }
+
+    &.shift-left:before {
+      content: "\e4a2";
+    }
+
+    &.shift-right,
+    &.shift-left {
+      display: inline-block;
+    }
+  }
+
+  &.shifting {
+    .pat-breadcrumbs-content {
+      padding: 0 1.5em;
+    }
+  }
+
+  a {
+    &:before {
+      display: inline-block;
+      // font-family: fontello;
+      content: ':';
+      padding: 0 0.5em;
+    }
+
+    &:first-child:before {
+      display: none;
+    }
+  }
+}

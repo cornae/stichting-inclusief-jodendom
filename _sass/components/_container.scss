@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.container {
+    display: block;
+
+    @include screen-size(medium) {
+    	max-width: 960px;
+    }
+
+    @include screen-size(large) {
+    	max-width: 1200px;
+    }
+
+    padding: 0 $container-padding;
+    
+    margin: 0 auto;
+
+    @include box-sizing;
+    @include clear-fix;   
+}

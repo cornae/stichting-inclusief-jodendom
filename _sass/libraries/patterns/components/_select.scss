@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+$arrow-down-dark: "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA4LjQgNyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOC40IDc7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtvcGFjaXR5OjAuNjt9DQo8L3N0eWxlPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIwLDAgNC4yLDcgOC40LDAgIi8+DQo8L3N2Zz4=";
+$arrow-down-dark-blue: "PHN2ZyB3aWR0aD0iOXB4IiBoZWlnaHQ9IjVweCIgaWQ9IkxheWVyXzEiIGRhdGEtbmFtZT0iTGF5ZXIgMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgOC40IDciPg0KICA8cG9seWdvbiBwb2ludHM9IjAgMCA0LjIgNyA4LjQgMCAwIDAiIHN0eWxlPSJmaWxsOiAjMDE2ODliIi8+DQo8L3N2Zz4=";
+
+select.pat-select,
+label.pat-select select {
+  /*Next 2 lines is a bizarre patch to make misbehaving FF hide the original dropdown button*/
+  text-indent: 0.01px;
+  text-overflow: '';
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: $body-font-family;
+  border: none;
+
+  border-right: 0.35em solid rgba(0, 0, 0, 0);
+  padding-right: 1em;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-image: url(data:image/svg+xml;base64,#{$arrow-down-dark-blue});
+  background-size: auto 50%;
+
+  @media print { background-image: none; }
+}
+
+label.pat-select.bare,
+a.pat-select.bare {
+  position: relative;
+  color: #666;
+  padding: 0;
+  cursor: default;
+  margin: 0;
+
+  &:hover,
+  &.focus { 
+    color: black;
+    text-decoration: none;
+  }
+
+  @include box-sizing();
+}
+
+label.pat-select.pill,
+a.pat-select.pill {
+  position: relative;
+  cursor: default;
+  margin: 0;
+
+  display: inline-block;
+  border-radius: 2em;
+  padding: 0 1.2em;
+  line-height: 1.2 * $baseline;
+  background-color: $colour-dark-blue-l;
+  color: $colour-dark-blue;
+  text-decoration: none;
+  font-weight: normal;
+
+  &:hover {
+    background-color: $colour-dark-blue-xl;
+  }
+
+  @include box-sizing();
+}
+
+label.pat-select.bare:after,
+a.pat-select.bare:after,
+label.pat-select.pill:after,
+a.pat-select.pill:after {
+  // content: attr(data-option) ' ∇';
+  // content: attr(data-option) ' ∨';
+  // content: attr(data-option) ' ▼';
+  // content: attr(data-option) ' V';
+
+  content: attr(data-option);
+  padding-right: 1.2em;
+  box-shadow: none !important;  
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  background-repeat: no-repeat;
+  background-position: right 0.32em;
+  background-size: 0.8em;
+  background-image: url(data:image/svg+xml;base64,#{$arrow-down-dark-blue});
+  background-size: auto 50%;
+
+  @media print { 
+    background-image: none; 
+    padding-right: 0;
+  }
+}
+
+label.pat-select.bare select,
+label.pat-select.pill select {
+  opacity: 0;
+  line-height: 1.5em;
+  font-size: 1em;
+  position: absolute;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  width: 100%;
+  border-right: none;
+}

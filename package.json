@@ -1,0 +1,92 @@
+{
+  "name": "myproject",
+  "version": "4.0.0",
+  "title": "My Project",
+  "description": "My project description.",
+  "author": {
+    "name": "Your name here"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/url/to/your/project/tracker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/url/to/your/project"
+  },
+  "dependencies": {
+    "patternslib": "https://github.com/Patternslib/Patterns.git",
+    "pat-content-mirror": "0.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "8.0.2",
+    "babel-plugin-dynamic-import-webpack": "^1.1.0",
+    "babel-polyfill": "^6.26.0",
+    "ajv": "^6.6.1",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "duplicate-package-checker-webpack-plugin": "^3.0.0",
+    "exports-loader": "^0.7.0",
+    "expose-loader": "^0.7.5",
+    "fstream": "^1.0.12",
+    "generator-patternslib": "github:Patternslib/generator-patternslib#d8d06e0",
+    "html-webpack-plugin": "^3.2.0",
+    "imports-loader": "^0.8.0",
+    "jasmine": "^3.2.0",
+    "jasmine-core": "^3.3.0",
+    "jasmine-webpack-plugin": "^0.1.1",
+    "jquery.browser": "0.1.0",
+    "jshint": "^2.10.2",
+    "karma": "^4.1.0",
+    "karma-babel-preprocessor": "^8.0.0-beta.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-edge-launcher": "^0.4.2",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-html-reporter": "^1.2.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "0.3.7",
+    "karma-webpack": "^4.0.0-rc.5",
+    "mixin-deep": "^2.0.1",
+    "mustache": "3.0.0",
+    "node-gyp": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "pegjs": "0.7.0",
+    "phantomjs-prebuilt": "^2.1.8",
+    "postinstall-build": "^5.0.1",
+    "puppeteer": "1.14.0",
+    "script-loader": "^0.7.2",
+    "set-value": "^3.0.1",
+    "tar": "^4.4.10",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "union-value": "^2.0.1",
+    "underscore": "1.9.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-jasmine-html-runner-plugin": "^0.9.0",
+    "webpack-merge": "^4.1.2",
+    "webpack-modernizr-loader": "^5.0.0",
+    "webpack-visualizer-plugin": "^0.1.11",
+    "wrapper-webpack-plugin": "^2.0.0",
+    "yo": "^2.0.6"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "homepage": "https://your.project.homepage.com",
+  "docs": "http://your.docs/",
+  "maintainers": [
+    {
+      "name": "Your Name",
+      "url": "http://your.url"
+    }
+  ]
+}

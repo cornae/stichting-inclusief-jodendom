@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+.tooltip-container {
+  background-color: white;
+  position: absolute;
+  z-index: 9997;
+  border: none;
+  min-height: 50px;
+  overflow: visible;
+  overflow-x: visible;
+  margin: 0;
+  
+  @media print {
+    display: none;
+  }
+
+  @include screen-size(medium-large) {
+    border: 1px solid silver;
+    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    // font-size: 0.8em;
+    line-height: 1.5em;
+    border-radius: 0.4em;
+    width: 300px;
+  }
+
+  > div {
+    padding: 1em;
+    z-index: 1;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    min-height: 60px;
+    background-color: white;
+    overflow: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    border-radius: 0.35em;
+
+    @include screen-size(small) {
+      padding-top: 4em;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+
+  > .close-panel {
+    @include close-button;
+  }
+
+  &.type-auto {
+    > .close-panel {
+      display: none;
+    }
+  }
+  &.type-sticky {
+    > .close-panel {
+      display: none;
+    }
+  }
+
+  &.type-close-button {
+    > .close-panel {
+      display: block;
+    }
+  }
+
+  &.bl .pointer, 
+  &.bm .pointer, 
+  &.br .pointer {
+    margin-top: -12px;
+  }
+  &.lt .pointer, 
+  &.lm .pointer, 
+  &.lb .pointer {
+    margin-left: 12px;
+  }
+  &.tl .pointer, 
+  &.tm .pointer, 
+  &.tr .pointer {
+    margin-top: 12px;
+  }
+  &.rt .pointer, 
+  &.rm .pointer, 
+  &.rb .pointer {
+    margin-left: -12px;
+  }
+  &.lt .pointer, 
+  &.rt .pointer {
+    margin-top: 20px;
+  }
+  &.lb .pointer, 
+  &.rb .pointer {
+    margin-top: -20px;
+  }
+  &.tl .pointer, 
+  &.bl .pointer {
+    margin-left: 20px;
+  }
+  &.tr .pointer, 
+  &.br .pointer {
+    margin-left: -20px;
+  }
+
+  // Variations
+
+  &.info {
+    > div {
+      background-color: $colour-notice;
+    }
+
+    .pointer {
+      background-color: $colour-notice;
+    }
+  }
+
+  &.rich {
+    > div {
+      @include pat-rich();
+    }
+  }
+
+  &.large {
+    @include screen-size(large) {
+      width: 50%;
+    }
+  }
+
+  h4 {
+    color: #3b3b3b;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .item-selector {
+    position: static;
+  }
+
+  .button-bar.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .pointer {
+    height: 20px;
+    width: 20px;
+    display: block;
+    background-color: white;
+    border: 1px solid silver;
+    z-index: 0;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.19922) 0px 0px 10px;
+    -moz-transform: rotate(45deg);
+    -moz-box-shadow: rgba(0, 0, 0, 0.19922) 0px 0px 10px;
+    transform: rotate(45deg);
+    box-shadow: rgba(0, 0, 0, 0.19922) 0px 0px 10px;
+    @include screen-size(small) {
+      display: none;
+    }
+  }
+
+  ul.menu {
+    margin: 0;
+    list-style-type: none;
+    
+    li {
+      line-height: 1.5em;
+
+      > button,
+      > form button,
+      > a {
+        background: none;
+        display: block;
+        color: black;
+        line-height: 1.5em;
+        cursor: default;
+        padding: 0.2em 0 0.1em 1.6em;
+
+        &:active {
+          box-shadow: none;
+        }
+      }
+
+      a:before, 
+      button:before {
+        margin-left: -1.6em;
+        float: left;
+        line-height: 1.5em;
+      }
+    }
+
+    li {
+
+      &.current a {
+        &:before {
+          content: "✓";
+          float: left;
+          margin-left: -1.5em;
+          font: 1em fontello;
+        }
+        color: black;
+      }
+
+      &:hover {
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.03);
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      &.file-upload {
+        position: relative;
+        text-indent: 20px;
+        height: 25px;
+        overflow: hidden;
+        
+        &:before {
+          content: "\e808";
+          font-family: fontello;
+          position: absolute;
+          left: -13px;
+        }
+        
+        form {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          label {
+            position: absolute;
+            margin-left: 0;
+            left: 0;
+            overflow: hidden;
+            display: block;
+            right: 0;
+            cursor: pointer;
+            padding-left: 2px;
+          }
+          input {
+            opacity: 0;
+            filter: alpha(opacity = 0);
+            width: 100%;
+            cursor: pointer;
+            position: absolute;
+            top: 3px;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include screen-size(small) {
+  .tooltip-container {
+    // width: 100% !important;
+    z-index: 10000;
+    position: fixed;
+    top: 1.2em !important;
+    right: 1.2em !important;
+    bottom: 1.2em !important;
+    left: 1.2em !important;
+    // font-size: 0.9em;
+    max-width: inherit !important;
+    max-height: inherit !important;
+    border: silver 1px solid;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    transition: top 1s;
+    border-radius: 20px !important;
+
+       -moz-animation: fadeInUp 0.4s;
+    -webkit-animation: fadeInUp 0.4s;
+            animation: fadeInUp 0.4s;
+
+    // visibility: visible !important;
+
+    // &[style*=hidden] {
+    //   top: 100%;
+    // }
+
+    > div {
+      border-radius: 20px !important;
+      width: 100% !important;
+      height: 100% !important;
+      max-width: inherit !important;
+      max-height: inherit !important;
+      padding: 4em 5% 5% !important;
+      overflow: auto;
+    }
+
+    .close-panel {
+      &:before {
+        content: '#{$glyph-down-thin}';
+      }
+    }
+
+    &.type-auto,
+    &.type-sticky,
+    &.type-close-button {
+      > .close-panel {
+        display: block;
+        padding: 3px 6px 0 0;
+        background: none;
+        border: none;
+        // width: auto;
+        height: auto;
+        float: right;
+        right: inherit;
+        left: 50%;
+
+        &:before {
+          right: 1.5em;
+          top: 0.1em;
+        }
+
+        &:after {
+          color: gray;
+        }
+      }
+    }
+  }
+}

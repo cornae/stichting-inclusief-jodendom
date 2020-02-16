@@ -1,0 +1,35 @@
+<div class="news-feed" id="found-messages">
+	{% assign count = 1 %}
+	{% assign this_max = 3 %}
+	{% assign this_max = include.max %}
+	{% for item in site.posts %}
+		{% if item.layout == 'news-item' and count <= this_max %}
+			<article class="item {{ item.type }}">
+				<a class="follow pat-inject" 
+				   href="{{ item.url }}"
+				   data-pat-inject="history: record">
+					{% if include.images == 'true' %}
+						<figure class="illustration">
+							<img alt="" src="/assets/style/placeholder-16x9.png" style="background-image: url({{ item.image }})">
+						</figure>
+					{% endif %}
+					<h3 class="item-title">
+						{{ item.title }}
+					</h3>
+					<p class="byline">
+						<time datetime="{{ item.date | date: "%Y-%m-%dT%H:%M" }}Z">{{ item.date | date: "%-d %B %Y" }}</time>
+					</p>
+					<p class="description">
+						{{ item.summary | truncatewords: 40 }}
+					</p>
+				</a> 
+			</article>
+			{% assign count = count | plus: 1 %}
+		{% endif %}
+	{% endfor %}
+	{% unless this_max <= 4 %}
+		<p id="pagination">
+	        <a href="/nieuws" class=" next pat-inject" data-pat-inject="trigger: autoload-visible; source: #found-messages; target: #pagination::element">Meer nieuws laden…</a>
+	    </p>
+	{% endunless %}
+</div>

@@ -1,0 +1,11 @@
+<div class="swim-lane" id="swim-lane-news">
+    <div class="container">
+        <h2 class="lane-title">
+            {{ site.data.ui.title_news[site.lang] }}
+        </h2>
+        {% include news-feed.html images="true" max=3 %}
+<!--         <p class="lane-footer">
+            <a class="more pat-inject" data-pat-inject="history: record" href="/nieuws">{{ site.data.ui.label_more_news[site.lang] }}</a>
+        </p> -->
+    </div>
+</div>

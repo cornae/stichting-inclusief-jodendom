@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.news-feed {
+  margin: 0 calc(-1 * $grid-gutter $baseline);
+  @supports (display: grid) { 
+    margin: 0;
+
+    display: flex; // Needed for the flex layout.
+    flex-wrap: wrap; // Needed for the flex layout.
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2 * $grid-gutter; 
+  }
+
+  @include screen-size(medium) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include screen-size(small) {
+    grid-template-columns: 1fr;
+  }
+
+  .item {
+    padding-left: $grid-gutter; // Needed for the flex layout.
+    padding-right: $grid-gutter; // Needed for the flex layout.
+    width: 33.33332%; // Needed for the flex layout.
+    float: left; // Needed for old browsers such as IE
+
+    @include screen-size(medium) {
+      width: 50%; // Needed for the flex layout.
+    }
+
+    @include screen-size(small) {
+      width: 100%; // Needed for the flex layout.
+    }
+
+    @supports (display: grid) {
+      width: auto;
+      padding-left: 0; // We need to set the margin used on flex items to 0 as we have gaps in grid.
+      padding-right: 0; // We need to set the margin used on flex items to 0 as we have gaps in grid.
+    }
+
+    padding-bottom: calc(2 * $baseline);
+    @include box-sizing;
+
+    a {
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        .item-title,
+        .byline {
+          text-decoration: underline;
+        }
+      }
+
+      &:before {
+        position: absolute;
+        left: 0;
+        top: 2px;
+        width: 25px;
+        height: 100%;
+        font-size: 25px;
+      }
+
+      .illustration {
+        margin-bottom: 10px;
+
+        img {
+          width: 100%;
+          border: none;
+          background-size: cover;
+          background-position: center;
+          background-color: $colour-base-light;
+        }
+      }
+
+      .item-title {
+        font-size: 1.75rem;
+        line-height: 2rem;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+        color: $colour-link;
+        width: auto; // Required for IE
+      }
+
+      .byline {
+        color: #000;
+        font-size: 1rem;
+        line-height: 1.375rem;
+        margin-bottom: .8125em;
+
+        time {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

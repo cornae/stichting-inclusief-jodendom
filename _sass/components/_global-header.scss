@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    line-height: 60px;
+    border-bottom: solid 1px silver;
+
+    #site-logo {     
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        display: inline-block;
+    }
+}
