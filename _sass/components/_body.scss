@@ -4,4 +4,8 @@ body {
 	line-height: 1.4em;
 
 	padding-top: 60px;
+
+	@include screen-size(large) {
+		padding-top: 80px;
+	}
 }

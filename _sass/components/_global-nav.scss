@@ -2,6 +2,19 @@
 	float: right;
 	margin: 0 -20px;
 
+	@include screen-size(small) {
+		float: none;
+		margin: 0 0 40px 0;
+
+		.global-nav-item {
+			display: block;
+			width: 100%;
+			background: #efefef;
+			margin-bottom: 2px;
+			box-sizing: border-box;
+		}
+	}
+
 	.global-nav-item {
 		display: inline-block;
 		padding: 0 20px;

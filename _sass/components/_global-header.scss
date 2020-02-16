@@ -8,10 +8,30 @@
     line-height: 60px;
     border-bottom: solid 1px silver;
 
+    @include screen-size(large) {
+        padding-top: 20px;
+    }
+
+    @include screen-size(small) {
+        position: static;
+
+        #site-logo {
+            position: absolute;
+            top: 0;
+            left: $container-padding;
+            right: $container-padding;
+        }
+    }
+
     #site-logo {     
         text-decoration: none;
         color: black;
         font-weight: bold;
         display: inline-block;
+
+        @include screen-size(large) {
+            padding-top: 20px;
+            margin-top: -20px;
+        }
     }
 }
