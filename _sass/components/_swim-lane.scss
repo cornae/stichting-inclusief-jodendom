@@ -26,14 +26,19 @@
 			font-size: 1.5em;
 			margin: 0 auto 30px;
 			max-width: $swim-lane-content-width;
-			padding: 20px;
 			line-height: 1.4;
 			background: white;
 			position: relative;
 			z-index: 1;
 			padding-top: 0;
 
+			@include screen-size(small-medium) {
+				// padding: 20px;
+			}
+
 			@include screen-size(large) {
+				padding: 20px;
+
 				&:before {
 					content: ' ';
 					display: block;
