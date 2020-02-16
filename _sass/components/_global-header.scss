@@ -10,6 +10,7 @@
 
     @include screen-size(large) {
         padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     @include screen-size(small) {
@@ -31,7 +32,9 @@
 
         @include screen-size(large) {
             padding-top: 20px;
+            padding-bottom: 20px;
             margin-top: -20px;
+            margin-bottom: -20px;
         }
     }
 

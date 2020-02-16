@@ -21,6 +21,13 @@
 		text-decoration: none;
 		color: #666;
 
+        @include screen-size(large) {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: -20px;
+            margin-bottom: -20px;
+        }
+
 		&:hover {
 			text-decoration: underline;;
 		}
