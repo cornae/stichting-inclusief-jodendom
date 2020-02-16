@@ -17,7 +17,10 @@
 
 	&#swim-lane-editorial {
 		position: relative;
-		padding-top: 0;
+
+		@include screen-size(large) {
+			padding-top: 0;
+		}
 
 		.ankeiler {
 			font-size: 1.5em;
@@ -30,19 +33,21 @@
 			z-index: 1;
 			padding-top: 0;
 
-			&:before {
-				content: ' ';
-				display: block;
-				background: white;
-				box-shadow: 0 0 20px rgba(0,0,0,0.1);
-				height: 400px;
-				position: absolute;
-				z-index: -1;
-				margin: -40px;
-				width: calc(100% + 80px);
-				box-shadow: 0 -30px 20px rgba(0,0,0,0.03),
-						    10px -30px 20px rgba(0,0,0,0.03),
-						    -10px -30px 20px rgba(0,0,0,0.03);
+			@include screen-size(large) {
+				&:before {
+					content: ' ';
+					display: block;
+					background: white;
+					box-shadow: 0 0 20px rgba(0,0,0,0.1);
+					height: 400px;
+					position: absolute;
+					z-index: -1;
+					margin: -60px;
+					width: calc(100% + 85px);
+					box-shadow: 0 -30px 20px rgba(0,0,0,0.03),
+							    10px -30px 20px rgba(0,0,0,0.03),
+							    -10px -30px 20px rgba(0,0,0,0.03);
+				}
 			}
 		}
 
