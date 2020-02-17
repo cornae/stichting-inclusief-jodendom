@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Liefdadigheid
+title: Giften
 parent: Editorial lane
 icon: worldwide
 ---
