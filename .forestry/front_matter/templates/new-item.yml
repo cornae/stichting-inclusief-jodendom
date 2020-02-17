@@ -23,5 +23,3 @@ fields:
 - type: file
   name: image
   label: image
-pages:
-- _posts/news/2020-01-01-test-nieuws.md
