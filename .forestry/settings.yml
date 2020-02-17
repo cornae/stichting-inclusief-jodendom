@@ -7,7 +7,6 @@ sections:
 - type: jekyll-posts
   label: Nieuwsbericht
   create: all
-  match: "**/*"
   templates:
   - new-item
 - type: directory
