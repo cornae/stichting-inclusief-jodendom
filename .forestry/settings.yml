@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: Nieuwsbericht
+  create: all
+  match: "**/*"
+  templates:
+  - new-item
 - type: directory
   path: _posts/news
   label: News
