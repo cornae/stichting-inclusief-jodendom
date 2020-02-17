@@ -24,4 +24,4 @@ fields:
   name: image
   label: image
 pages:
-- _posts/news/test-nieuws.md
+- _posts/news/2020-01-01-test-nieuws.md
