@@ -26,5 +26,11 @@ fields:
 - type: file
   name: image
   label: image
+- name: author
+  type: text
+  config:
+    required: false
+  label: Auteur
+  default: De redactie
 pages:
 - _posts/news/2020-02-17-nieuws-4.md
