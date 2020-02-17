@@ -1,11 +1,12 @@
 ---
-label: New item
+label: News item
 hide_body: false
 fields:
 - type: text
   name: layout
   label: layout
   hidden: true
+  default: news-item
 - type: text
   name: title
   label: title
@@ -13,10 +14,12 @@ fields:
   name: type
   label: type
   hidden: true
+  default: news
 - type: text
   name: parent
   label: parent
   hidden: true
+  default: Nieuws
 - type: text
   name: summary
   label: summary
