@@ -27,9 +27,11 @@
 			{% assign count = count | plus: 1 %}
 		{% endif %}
 	{% endfor %}
-	{% unless this_max <= 4 %}
+	{% comment %}	{% unless this_max <= 4 %}
 		<p id="pagination">
 	        <a href="/nieuws" class=" next pat-inject" data-pat-inject="trigger: autoload-visible; source: #found-messages; target: #pagination::element">Meer nieuws laden…</a>
 	    </p>
 	{% endunless %}
+	{% endcomment %}
+
 </div>
