@@ -5,15 +5,18 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
   label: title
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: parent
   label: parent
+  hidden: true
 - type: text
   name: summary
   label: summary
