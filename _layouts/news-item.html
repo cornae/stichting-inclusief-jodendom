@@ -10,23 +10,7 @@ template: article
 		<span class="date">
 			<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M" }}Z">
 				<!-- Whitespace added for readability -->
-				{% assign m = page.date | date: "%-m" %}
-				{{ page.date | date: "%-d" }}
-				{% case m %}
-				  {% when '1' %}januari
-				  {% when '2' %}februari
-				  {% when '3' %}M&auml;rz
-				  {% when '4' %}april
-				  {% when '5' %}mei
-				  {% when '6' %}juni
-				  {% when '7' %}juli
-				  {% when '8' %}august
-				  {% when '9' %}september
-				  {% when '10' %}oktober
-				  {% when '11' %}november
-				  {% when '12' %}december
-				{% endcase %}
-				{{ page.date | date: "%Y" }}
+				{% include date-full-nl.html %}
 			</time>
 		</span>
 	</p>
