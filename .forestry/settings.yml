@@ -8,8 +8,8 @@ sections:
   path: posts/news
   label: News
   create: documents
-  match: "**/*"
-  new_doc_ext: ".md"
+  match: "*.md"
+  new_doc_ext: md
 upload_dir: media
 public_path: "/media"
 front_matter_path: ''
