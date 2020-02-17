@@ -9,12 +9,6 @@ sections:
   create: all
   templates:
   - new-item
-- type: directory
-  path: _posts/news
-  label: News
-  create: documents
-  match: "*.md"
-  new_doc_ext: md
 upload_dir: media
 public_path: "/media"
 front_matter_path: ''
