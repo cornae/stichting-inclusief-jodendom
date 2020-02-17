@@ -14,7 +14,7 @@ fields:
   name: type
   label: type
   hidden: true
-  default: news
+  default: jekyll-posts
 - type: text
   name: parent
   label: parent
