@@ -32,5 +32,3 @@ fields:
     required: false
   label: Auteur
   default: De redactie
-pages:
-- _posts/news/2020-02-17-test-nieuws.md
