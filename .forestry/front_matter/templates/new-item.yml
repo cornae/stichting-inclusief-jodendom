@@ -26,3 +26,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- _posts/news/test-3.md
