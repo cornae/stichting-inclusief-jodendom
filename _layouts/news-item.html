@@ -22,5 +22,10 @@ template: article
 			{{ page.summary }}
 		</p>
 	{% endif %}
+	{% if page.image %}
+		<figure>
+			<img src="{{ page.image }}" alt="" />
+		</figure>
+	{% endif %}
 	{{ content }}
 </article>
