@@ -5,6 +5,5 @@ parent: Nieuws
 title: Test 3
 summary: ''
 image: ''
-published: false
 
 ---
