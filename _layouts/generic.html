@@ -2,7 +2,8 @@
 layout: shell
 ---
 
-<div id="main-content">
+<div id="main-content"
+	 style="{% if page.colour %}background-color: {{ page.colour }}; color: white{% endif %}">
 	<div class="container">
 		{{ content }}
 	</div>

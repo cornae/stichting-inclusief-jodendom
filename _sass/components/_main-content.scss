@@ -1,5 +1,7 @@
 #main-content {
 	padding: 120px 0;
+	position: relative;
+	z-index: 1;
 
 	@include screen-size(small) {
 		padding: 40px 0 60px;

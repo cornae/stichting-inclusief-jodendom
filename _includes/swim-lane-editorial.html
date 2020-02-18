@@ -8,8 +8,11 @@
         		{% if item.parent == 'Editorial lane' %}
         			<li>
         				<a href="{{ item.url }}"
-        				   class="pat-inject icon-{{ item.icon }}"
-        				   data-pat-inject="history: record">{{ item.title }}</a>
+        				   class="pat-inject"
+                           style="background-color: {{ item.colour }}" 
+        				   data-pat-inject="history: record">
+                            <strong class="label">{{ item.title }}</strong>
+                        </a>
         			</li>
         		{% endif %}
         	{% endfor %}
