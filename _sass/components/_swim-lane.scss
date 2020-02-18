@@ -78,7 +78,7 @@
 					display: block;
 					background: white;
 					box-shadow: 0 0 20px rgba(0,0,0,0.1);
-					height: 400px;
+					height: 550px;
 					position: absolute;
 					z-index: -1;
 					margin: -70px;
@@ -94,6 +94,8 @@
 	&#swim-lane-news {
 		padding-top: 0;
 		padding-bottom: 80px;
+		position: relative;
+		z-index: 1;
 
 		.lane-title {
 			padding-top: 20px;
