@@ -33,6 +33,10 @@
 		a {
 			position: relative;
 
+			&:hover {
+				filter: brightness(1.1);
+			}
+
 			.label {
 				font-weight: normal;
 				padding: 12px;
