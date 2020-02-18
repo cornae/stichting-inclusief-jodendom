@@ -44,14 +44,18 @@
 		@include screen-size(small) {
 			height: 250px;
 		}
+
+		@include screen-size(medium) {
+			height: 340px;
+		}
 	}
 
 	&#swim-lane-editorial {
 		position: relative;
-		margin-top: -80px;
 
 		@include screen-size(large) {
 			padding-top: 0;
+			margin-top: -80px;
 		}
 
 		.ankeiler {
