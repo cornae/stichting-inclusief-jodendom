@@ -31,7 +31,7 @@
 	}
 
 	&#swim-lane-hero {
-		height: 350px;
+		height: 430px;
 		background: url(uil-tish-1.jpg);
 		background-size: cover;
 		background-position: center;
@@ -48,6 +48,7 @@
 
 	&#swim-lane-editorial {
 		position: relative;
+		margin-top: -80px;
 
 		@include screen-size(large) {
 			padding-top: 0;
