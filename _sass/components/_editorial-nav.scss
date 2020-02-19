@@ -13,11 +13,12 @@
 		position: relative;
 
 		@include screen-size(medium-large) {
-			width: 33.33332%;
+			width: 50%;
 
+			&:nth-child(3),
 			&:nth-child(4),
 			&:nth-child(5) {
-				width: 50%;
+				width: 33.33332%;
 			}
 		}
 
