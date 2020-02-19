@@ -33,3 +33,5 @@ fields:
   label: parent
   default: Editorial lane
   hidden: true
+pages:
+- _posts/header/test.md
