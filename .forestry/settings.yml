@@ -20,7 +20,7 @@ sections:
   templates:
   - editorial-page
 - type: directory
-  path: _posts/header
+  path: _posts/header-pages
   label: Header
   create: documents
   match: "**/*"
