@@ -7,6 +7,8 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: documents
+  templates:
+  - new-item
 - type: directory
   path: _posts/editorial
   label: Editorial
