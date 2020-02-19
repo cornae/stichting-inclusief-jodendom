@@ -24,6 +24,17 @@ fields:
   label: Image
   description: The image appears as a small thumbnail in the news overview. A larger
     version is shown between the summary and the body text of the news article page.
+- name: date
+  type: datetime
+  label: Publication date
+  description: ''
+  config:
+    required: true
+    date_format: DD-MM-YYYY
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+  default: now
 - name: author
   type: text
   config:

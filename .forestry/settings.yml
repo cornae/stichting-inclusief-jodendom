@@ -10,15 +10,15 @@ sections:
   templates:
   - new-item
 - type: directory
-  path: _posts/editorial
+  path: content/_editorial
   label: Editorial
   create: none
   match: "**/*"
   templates:
   - editorial-page
 - type: directory
-  path: _posts/header-pages
-  label: Header
+  path: content/_general
+  label: General
   create: none
   match: "**/*"
   templates:
