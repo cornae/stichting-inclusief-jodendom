@@ -1,6 +1,6 @@
 ---
 layout: news-item
-title: Aankondiging nieuwe Open Synagoge diensten
+title: Excepteur sint occaecat cupidatat non proident
 type: news
 parent: nieuws
 author: ''
