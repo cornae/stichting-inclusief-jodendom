@@ -42,5 +42,3 @@ fields:
   label: parent
   hidden: true
   default: Nieuws
-pages:
-- _posts/news/2020-02-19-test-5.md
