@@ -26,8 +26,8 @@ fields:
 - type: file
   name: image
   label: Image
-  description: The image appears as a small thumbnail in the news overviews. A larger
-    version is shown between the summary and the body text of the news article.
+  description: The image appears as a small thumbnail in the news overview. A larger
+    version is shown between the summary and the body text of the news article page.
 - name: author
   type: text
   config:
