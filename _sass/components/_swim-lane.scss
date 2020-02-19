@@ -82,6 +82,7 @@
 
 			@include screen-size(large) {
 				padding: 20px 0 50px;
+				text-align: center;
 
 				&:before {
 					content: ' ';
