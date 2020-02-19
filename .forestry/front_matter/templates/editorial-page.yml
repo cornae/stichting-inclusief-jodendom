@@ -3,20 +3,33 @@ label: Editorial page
 hide_body: false
 fields:
 - type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
+- name: colour
+  type: color
+  label: Colour
+  config:
+    required: true
+    color_format: RGB
+  default: rgb(131, 131, 131)
+- type: text
   name: layout
   label: layout
-- type: text
-  name: title
-  label: title
-- type: text
-  name: summary
-  label: summary
+  default: article
+  hidden: true
 - type: text
   name: parent
   label: parent
-- type: text
-  name: icon
-  label: icon
-- type: text
-  name: colour
-  label: colour
+  default: Editorial lane
+  hidden: true
