@@ -42,3 +42,5 @@ fields:
   label: parent
   hidden: true
   default: Nieuws
+pages:
+- _posts/news/test-2.md
