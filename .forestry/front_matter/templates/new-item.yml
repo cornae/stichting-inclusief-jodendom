@@ -53,3 +53,5 @@ fields:
   label: parent
   hidden: true
   default: Nieuws
+pages:
+- content/_news/test-10.md
