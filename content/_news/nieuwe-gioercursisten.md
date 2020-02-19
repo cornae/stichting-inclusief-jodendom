@@ -1,6 +1,6 @@
 ---
 layout: news-item
-title: Meer dan 50 gioercursisten voor 2020
+title: Meer dan 50 cursisten voor 2020
 type: news
 parent: nieuws
 author: ''
