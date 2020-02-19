@@ -11,7 +11,8 @@
 				   title="{{ item.title" }}" 
 				   data-pat-inject="history: record">
 					{% if include.images == 'true' %}
-						<figure class="illustration">
+						<figure class="illustration" 
+						        style="background-image: url({{ item.image }})">
 							<img alt="" src="/assets/style/placeholder-16x9.png" style="background-image: url({{ item.image }})">
 							<figcaption>
 								<p class="byline">

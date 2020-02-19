@@ -1,6 +1,6 @@
 .swim-lane {
-	padding-top: 40px;
-	margin-bottom: 40px;
+	padding-top: 30px;
+	margin-bottom: 30px;
 
 	@include screen-size(small) {
 		padding-top: 20px;
@@ -59,6 +59,7 @@
 
 	&#swim-lane-editorial {
 		position: relative;
+		margin-bottom: 10px;
 
 		@include screen-size(large) {
 			padding-top: 0;

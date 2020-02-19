@@ -26,6 +26,7 @@
     padding-right: $grid-gutter; // Needed for the flex layout.
     width: 33.33332%; // Needed for the flex layout.
     float: left; // Needed for old browsers such as IE
+    overflow: hidden;
 
     &:hover {
       filter: brightness(1.1);
@@ -62,6 +63,14 @@
       .illustration {
         margin-bottom: 0;
         position: relative;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: -15px;
+        margin-bottom: -15px;
+        width: calc(100% + 30px);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 
         img {
           width: 100%;
@@ -70,17 +79,19 @@
           background-position: center;
           background-color: $colour-base-light;
           display: block;
+          -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, #fff 80%);
+          filter: blur(5px) brightness(0.4);
         }
 
         figcaption {
           position: absolute;
           z-index: 1;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          padding: 12px;
+          bottom: 15px;
+          left: 15px;
+          right: 15px;
+          padding: 50px 12px 12px;
           color: white;
-          background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+          background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
 
           .item-title {
             font-size: 1.5em;
