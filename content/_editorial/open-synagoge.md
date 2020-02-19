@@ -5,6 +5,7 @@ summary: Een avond om het Jodendom te beleven.
 parent: Editorial lane
 icon: synagogue
 colour: "rgb(79, 132, 134)"
+index: 1
 ---
 
 Een keer per maand trekken rabbijn Tamarah Benima en voorzanger Alexander de Vries naar een stad in Nederland om, op uitnodiging van een plaatselijke (meest kerkelijke organisatie), een vrijdagavonddienst te leiden. De dienst is vrijwel hetzelfde als in de Nederlands-joodse progressive gemeenten aan het begin van de Sjabbat/Sabbat. 

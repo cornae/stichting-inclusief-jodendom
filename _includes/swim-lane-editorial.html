@@ -3,8 +3,9 @@
         <p class="ankeiler">
         	{{ page.summary }}
         </p>
-        <ul class="editorial-nav">
-        	{% for item in site.editorial %}
+        <ul class="editorial-nav"> 
+            {% assign sorted_editorial = (site.editorial | sort: 'index' %}
+            {% for item in sorted_editorial %}
         		{% if item.parent == 'Editorial lane' %}
         			<li>
         				<a href="{{ item.url }}"
