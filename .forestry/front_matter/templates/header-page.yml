@@ -3,20 +3,20 @@ label: Header page
 hide_body: false
 fields:
 - type: text
-  name: layout
-  label: layout
-- type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
+- type: textarea
+  name: summary
+  label: Summary
 - type: text
   name: parent
   label: parent
+  hidden: true
+  default: Global navigation
 - type: text
-  name: icon
-  label: icon
-- type: text
-  name: colour
-  label: colour
-- type: textarea
-  name: summary
-  label: summary
+  name: layout
+  label: layout
+  default: article
+  hidden: true
