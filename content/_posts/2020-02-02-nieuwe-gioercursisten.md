@@ -4,6 +4,7 @@ title: Meer dan 50 gioercursisten voor 2020
 type: news
 parent: nieuws
 author: ''
+date: 2020-02-02
 summary: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
   deserunt mollit anim id est laborum.
 image: "/media/dummy/dummy-7.jpeg"

@@ -4,6 +4,7 @@ title: Layout van nieuwe gebedenboek bereikt laatste fase
 type: news
 parent: nieuws
 author: ''
+date: 2020-02-02
 summary: Lorem ipsum dolor sit amet consectetur. 
 image: /media/dummy/dummy-6.jpeg
 ---

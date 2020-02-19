@@ -11,6 +11,10 @@ collections_dir: content
 collections:
   editorial:
     output: true
+  general:
+    output: true
+  news:
+    output: true
 sass:
   style: :compressed
   load_paths:

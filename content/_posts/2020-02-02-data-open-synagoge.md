@@ -4,6 +4,7 @@ title: Aankondiging nieuwe Open Synagoge diensten
 type: news
 parent: nieuws
 author: ''
+date: 2020-02-02
 summary: Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
 image: "/media/dummy/dummy-8.jpeg"
 
