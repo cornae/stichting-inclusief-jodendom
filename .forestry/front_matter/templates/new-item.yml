@@ -9,7 +9,7 @@ fields:
   default: news-item
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: type
   label: type
@@ -21,14 +21,18 @@ fields:
   hidden: true
   default: Nieuws
 - type: text
-  name: summary
+  name: Summary
   label: summary
 - type: file
   name: image
-  label: image
+  label: Image
+  description: The image appears as a small thumbnail in the news overviews. A larger
+    version is shown between the summary and the body text of the news article.
 - name: author
   type: text
   config:
     required: false
-  label: Auteur
+  label: Author
   default: De redactie
+  description: Als dit veld wordt leeggelaten verschijnt er op de site 'De redactie'
+    als auteur.
