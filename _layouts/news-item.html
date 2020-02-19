@@ -5,10 +5,10 @@ template: article
 
 <article class="pat-rich long-read">
 	<p class="meta">
-		{% if page.author %}
-			<span class="credits">{{ page.author }}</span>
-		{% else %}
+		{% if page.author == blank or page.author == '' %}
 			<span class="credits">De redactie</span>
+		{% else %}
+			<span class="credits">{{ page.author }}</span>
 		{% endif %}
 		<br />
 		<span class="date">
