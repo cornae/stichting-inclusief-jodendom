@@ -17,11 +17,18 @@
 		a {
 			color: $colour-link;
 			font-weight: bold;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
 
 			&:before {
 				display: inline-block;
 				width: 1em;
 				font-family: fontello;
+				content: '\e75e';
+				text-decoration: none;
 			}
 		}
 	}

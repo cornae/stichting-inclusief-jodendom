@@ -8,39 +8,39 @@
 			<article class="item {{ item.type }}">
 				<a class="follow pat-inject" 
 				   href="{{ item.url }}"
+				   title="{{ item.title" }}" 
 				   data-pat-inject="history: record">
 					{% if include.images == 'true' %}
 						<figure class="illustration">
 							<img alt="" src="/assets/style/placeholder-16x9.png" style="background-image: url({{ item.image }})">
+							<figcaption>
+								<p class="byline">
+									<time datetime="{{ item.date | date: "%Y-%m-%dT%H:%M" }}Z">
+										{% assign m = item.date | date: "%-m" %}
+										{{ item.date | date: "%-d" }}
+										{% case m %}
+										  {% when '1' %}januari
+										  {% when '2' %}februari
+										  {% when '3' %}M&auml;rz
+										  {% when '4' %}april
+										  {% when '5' %}mei
+										  {% when '6' %}juni
+										  {% when '7' %}juli
+										  {% when '8' %}august
+										  {% when '9' %}september
+										  {% when '10' %}oktober
+										  {% when '11' %}november
+										  {% when '12' %}december
+										{% endcase %}
+										{{ item.date | date: "%Y" }}
+									</time>
+								</p>
+								<h3 class="item-title">
+									{{ item.title }}
+								</h3>
+							</figcaption>
 						</figure>
 					{% endif %}
-					<h3 class="item-title">
-						{{ item.title }}
-					</h3>
-					<p class="byline">
-						<time datetime="{{ item.date | date: "%Y-%m-%dT%H:%M" }}Z">
-							{% assign m = item.date | date: "%-m" %}
-							{{ item.date | date: "%-d" }}
-							{% case m %}
-							  {% when '1' %}januari
-							  {% when '2' %}februari
-							  {% when '3' %}M&auml;rz
-							  {% when '4' %}april
-							  {% when '5' %}mei
-							  {% when '6' %}juni
-							  {% when '7' %}juli
-							  {% when '8' %}august
-							  {% when '9' %}september
-							  {% when '10' %}oktober
-							  {% when '11' %}november
-							  {% when '12' %}december
-							{% endcase %}
-							{{ item.date | date: "%Y" }}
-						</time>
-					</p>
-					<p class="description">
-						{{ item.summary | truncatewords: 40 }}
-					</p>
 				</a> 
 			</article>
 			{% assign count = count | plus: 1 %}

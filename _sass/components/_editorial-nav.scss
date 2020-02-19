@@ -2,22 +2,17 @@
 	position: relative;
 	z-index: 1;
 	@include clear-fix;
-	margin: 0 -10px;
+	margin: 0 -15px;
 	-webkit-hyphens: manual;
 	hyphens: manual;
 
 	li {
-		margin-bottom: 10px;
 		float: left;
-		padding: 0 10px 10px 10px;
+		padding: 0 15px 15px 15px;
 		box-sizing: border-box;
 		position: relative;
 
-		@include screen-size(large) {
-			width: 20%;
-		}
-
-		@include screen-size(medium) {
+		@include screen-size(medium-large) {
 			width: 33.33332%;
 
 			&:nth-child(4),
@@ -54,11 +49,13 @@
 			}
 
 			@include screen-size(medium-large) {
-				height: 150px;
+				height: 100px;
+				margin-bottom: 15px;
 			}
 
 			@include screen-size(small) {
-				padding: 30px 10px;
+				padding: 40px 0 12px;
+				margin-bottom: 0;
 			}
 
 			background: $colour-link;

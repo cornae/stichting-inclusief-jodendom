@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .news-feed {
-  margin: 0 calc(-1 * $grid-gutter $baseline);
+  margin: 0 15px;
   @supports (display: grid) { 
     margin: 0;
 
@@ -9,8 +9,8 @@
     flex-wrap: wrap; // Needed for the flex layout.
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2 * $grid-gutter; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px; 
   }
 
   @include screen-size(medium) {
@@ -26,6 +26,10 @@
     padding-right: $grid-gutter; // Needed for the flex layout.
     width: 33.33332%; // Needed for the flex layout.
     float: left; // Needed for old browsers such as IE
+
+    &:hover {
+      filter: brightness(1.1);
+    }
 
     @include screen-size(medium) {
       width: 50%; // Needed for the flex layout.
@@ -48,24 +52,16 @@
       text-decoration: none;
       color: black;
 
-      &:hover {
-        .item-title,
-        .byline {
-          text-decoration: underline;
-        }
-      }
-
-      &:before {
-        position: absolute;
-        left: 0;
-        top: 2px;
-        width: 25px;
-        height: 100%;
-        font-size: 25px;
-      }
+      // &:hover {
+      //   .item-title,
+      //   .byline {
+      //     text-decoration: underline;
+      //   }
+      // }
 
       .illustration {
-        margin-bottom: 10px;
+        margin-bottom: 0;
+        position: relative;
 
         img {
           width: 100%;
@@ -73,26 +69,38 @@
           background-size: cover;
           background-position: center;
           background-color: $colour-base-light;
+          display: block;
         }
-      }
 
-      .item-title {
-        font-size: 1.5em;
-        line-height: 1.2;
-        font-weight: normal;
-        margin: 0 0 10px 0;
-        color: $colour-link;
-        width: auto; // Required for IE
-      }
+        figcaption {
+          position: absolute;
+          z-index: 1;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 12px;
+          color: white;
+          background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
 
-      .byline {
-        color: #000;
-        font-size: 1rem;
-        line-height: 1.375rem;
-        margin-bottom: .8125em;
+          .item-title {
+            font-size: 1.5em;
+            line-height: 1.2;
+            font-weight: normal;
+            margin: 0;
+            color: $colour-link;
+            width: auto; // Required for IE
+            color: white;
+          }
 
-        time {
-          font-weight: bold;
+          .byline {
+            font-size: 18px;
+            line-height: 1.2;
+            margin-bottom: 0;
+
+            time {
+              font-weight: bold;
+            }
+          }
         }
       }
     }
