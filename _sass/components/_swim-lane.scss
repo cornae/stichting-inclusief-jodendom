@@ -34,7 +34,9 @@
 	}
 
 	.container {
-		max-width: $swim-lane-content-width;
+		@include screen-size (large) {
+			max-width: $swim-lane-content-width;
+		}
 	}
 
 	&#swim-lane-hero {
