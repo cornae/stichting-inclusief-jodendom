@@ -4,4 +4,6 @@ title: Contact
 parent: Global navigation
 
 ---
-Heeft u vragen over de Stichting Inclusief Jodendom, neem dan met ons contact op via: [info@inclusiefjodendom.nl](mailto:info@inclusiefjodendom.nl).
+Heeft u vragen over Stichting Inclusief Jodendom? Neem dan contact met ons op via: 
+
+[info@inclusiefjodendom.nl](mailto:info@inclusiefjodendom.nl).
