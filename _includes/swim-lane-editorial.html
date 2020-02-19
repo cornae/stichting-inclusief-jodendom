@@ -6,16 +6,14 @@
         <ul class="editorial-nav"> 
             {% assign sorted_editorial = (site.editorial | sort: 'index' %}
             {% for item in sorted_editorial %}
-        		{% if item.parent == 'Editorial lane' %}
-        			<li>
-        				<a href="{{ item.url }}"
-        				   class="pat-inject"
-                           style="background-color: {{ item.colour }}" 
-        				   data-pat-inject="history: record">
-                            <strong class="label">{{ item.title }}</strong>
-                        </a>
-        			</li>
-        		{% endif %}
+    			<li>
+    				<a href="{{ item.url }}"
+    				   class="pat-inject"
+                       style="background-color: {{ item.colour }}" 
+    				   data-pat-inject="history: record">
+                        <strong class="label">{{ item.title }}</strong>
+                    </a>
+    			</li>
         	{% endfor %}
         </ul>
     </div>
