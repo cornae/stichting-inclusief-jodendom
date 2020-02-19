@@ -2,7 +2,7 @@
 	{% assign count = 1 %}
 	{% assign this_max = 3 %}
 	{% assign this_max = include.max %}
-	{% for item in site.news %}
+	{% for item in site.news | sort: 'date' | reverse %}
 		{% if item.layout == 'news-item' and count <= this_max %}
 			<article class="item {{ item.type }}">
 				<a class="follow pat-inject" 
