@@ -7,6 +7,10 @@ media: /media
 markdown: kramdown
 permalink: /:title
 port: 4016
+collections_dir: content
+collections:
+  editorial:
+    output: true
 sass:
   style: :compressed
   load_paths:

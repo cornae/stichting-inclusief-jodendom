@@ -3,6 +3,7 @@ layout: news-item
 title: Layout van nieuwe gebedenboek bereikt laatste fase 
 type: news
 parent: nieuws
+author: ''
 summary: Lorem ipsum dolor sit amet consectetur. 
 image: /media/dummy/dummy-6.jpeg
 ---

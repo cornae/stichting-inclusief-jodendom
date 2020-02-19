@@ -3,6 +3,7 @@ layout: news-item
 title: Aankondiging nieuwe Open Synagoge diensten
 type: news
 parent: nieuws
+author: ''
 summary: Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
 image: "/media/dummy/dummy-8.jpeg"
 
