@@ -11,24 +11,16 @@ sections:
   templates:
   - new-item
 - type: directory
-  path: _posts/news
-  label: News
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
-  templates:
-  - new-item
-- type: directory
   path: _posts/editorial
   label: Editorial
-  create: documents
+  create: none
   match: "**/*"
   templates:
   - editorial-page
 - type: directory
   path: _posts/header-pages
   label: Header
-  create: documents
+  create: none
   match: "**/*"
   templates:
   - header-page
