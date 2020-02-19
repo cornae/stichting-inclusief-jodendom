@@ -4,6 +4,21 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: _posts/editorial
+  label: Editorial
+  create: documents
+  match: "**/*"
+  templates:
+  - editorial-page
+- type: directory
+  path: _posts/news
+  label: News
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - new-item
 - type: jekyll-posts
   label: Inhoud
   create: all
