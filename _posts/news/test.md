@@ -6,7 +6,6 @@ parent: Nieuws
 title: test
 summary: test
 image: ''
-published: false
 
 ---
 test
