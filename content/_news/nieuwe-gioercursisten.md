@@ -1,6 +1,6 @@
 ---
 layout: news-item
-title: Meer dan 50 nieuwe dit jaar
+title: Meer dan 50 nieuwe cursisten dit jaar
 type: news
 parent: nieuws
 author: ''
