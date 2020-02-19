@@ -10,19 +10,15 @@ fields:
 - type: text
   name: title
   label: Title
-- type: text
-  name: type
-  label: type
-  hidden: true
-  default: jekyll-posts
-- type: text
-  name: parent
-  label: parent
-  hidden: true
-  default: Nieuws
-- type: text
-  name: Summary
-  label: summary
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
 - type: file
   name: image
   label: Image
@@ -36,3 +32,13 @@ fields:
   default: De redactie
   description: Als dit veld wordt leeggelaten verschijnt er op de site 'De redactie'
     als auteur.
+- type: text
+  name: type
+  label: type
+  hidden: true
+  default: jekyll-posts
+- type: text
+  name: parent
+  label: parent
+  hidden: true
+  default: Nieuws
