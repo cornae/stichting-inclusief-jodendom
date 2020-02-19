@@ -4,9 +4,11 @@ auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
-- type: jekyll-posts
-  label: Posts
+- type: directory
+  path: content/_news
+  label: News
   create: documents
+  match: "**/*"
   templates:
   - new-item
 - type: directory
