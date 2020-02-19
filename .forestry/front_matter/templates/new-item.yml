@@ -40,7 +40,7 @@ fields:
   config:
     required: false
   label: Author
-  default: De redactie
+  default: ''
   description: Als dit veld wordt leeggelaten verschijnt er op de site 'De redactie'
     als auteur.
 - type: text
