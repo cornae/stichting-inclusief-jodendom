@@ -5,7 +5,11 @@ template: article
 
 <article class="pat-rich long-read">
 	<p class="meta">
-		<span class="credits">De redactie</span>
+		{% if page.author %}
+			<span class="credits">{{ page.author }}</span>
+		{% else %}
+			<span class="credits">De redactie</span>
+		{% endif %}
 		<br />
 		<span class="date">
 			<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M" }}Z">
