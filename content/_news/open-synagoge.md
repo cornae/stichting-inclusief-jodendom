@@ -4,7 +4,7 @@ title: Excepteur sint occaecat cupidatat non proident
 type: news
 parent: nieuws
 author: ''
-date: 2020-02-02
+date: 2020-02-21
 summary: Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
 image: "/media/Kennismakingstish-van-boven-schuin.jpg"
 
