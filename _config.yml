@@ -7,6 +7,7 @@ media: /media
 markdown: kramdown
 permalink: /:title
 port: 4016
+repository:
 collections_dir: content
 collections:
   editorial:
