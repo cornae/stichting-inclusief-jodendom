@@ -7,7 +7,7 @@ media: /media
 markdown: kramdown
 permalink: /:title
 port: 4016
-repository:
+repository: cornae/stiching-inclusief-jodendom
 collections_dir: content
 collections:
   editorial:
