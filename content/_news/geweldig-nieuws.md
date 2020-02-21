@@ -6,8 +6,7 @@ parent: Nieuws
 title: Geweldig nieuws
 summary: Nog een test-nieuwsbericht
 image: "/media/dummy/dummy-4.jpeg"
-author: ''
-published: false
+author: Maya Angelou
 
 ---
 A free bird leaps
