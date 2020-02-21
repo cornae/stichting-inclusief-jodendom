@@ -8,6 +8,6 @@ summary: This is the Text that people usually never fill in. Should we auto gene
   it?
 image: "/media/1501912986_Capture.JPG.jpg"
 author: Angel on Holidays
-published: false
 
 ---
+Where is my Draft? Must be off. What can I say? 
