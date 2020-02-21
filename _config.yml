@@ -39,3 +39,4 @@ exclude:
   - package-lock.json
   - npmshrinkwrap.json
   - webpack.config.js
+  - vendor
