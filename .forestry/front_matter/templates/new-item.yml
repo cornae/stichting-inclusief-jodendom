@@ -53,3 +53,5 @@ fields:
   label: parent
   hidden: true
   default: Nieuws
+pages:
+- content/_news/experimenting-with-forestry-for-the-stichting-institute.md
