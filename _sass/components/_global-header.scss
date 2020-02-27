@@ -1,16 +1,33 @@
 @charset "UTF-8";
 
 #site-header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     line-height: 60px;
-    border-bottom: solid 1px silver;
+    // border-bottom: solid 1px silver;
+    transition: all 1s;
+    z-index: 10;
+    background: white;
 
     @include screen-size(large) {
         padding-top: 20px;
         padding-bottom: 20px;
+
+        &.variation-homepage,
+        &.variation-article {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        
+        .scroll-position-top & { 
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }        
+
+        .scroll-down & {
+            top: -100px;
+        }
     }
 
     @include screen-size(small) {

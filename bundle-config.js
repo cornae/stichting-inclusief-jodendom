@@ -11,6 +11,7 @@ define([
     "pat-registry",
     "modernizr",
     // "prefixfree",
+    "scroll-detection",
     "pat-ajax",
     "pat-autofocus",
     // "pat-autoscale",
