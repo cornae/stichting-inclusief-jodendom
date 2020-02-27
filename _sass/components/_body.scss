@@ -7,7 +7,7 @@ body {
 
 	padding-top: 60px;
 
-	@include screen-size(large) {
+	@include screen-size(medium-large) {
 		padding-top: 0;
 	}
 }
