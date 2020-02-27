@@ -44,6 +44,7 @@
 		background: url(uil-tish-1.jpg);
 		background-size: cover;
 		background-position: center;
+		background-color: #efefef;
 		padding: 0;
 		margin: 0;
 		position: relative;
@@ -56,6 +57,10 @@
 
 		@include screen-size(medium) {
 			height: 340px;
+		}
+
+		@include screen-size(medium-large) {
+			border-top: 100px solid transparent;
 		}
 	}
 
