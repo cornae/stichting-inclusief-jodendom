@@ -3,7 +3,7 @@ layout: article
 title: Siddoer - gebedenboeken
 parent: Editorial lane
 icon: books
-colour: rgb(136, 137, 97)
+colour: rgb(144, 19, 254)
 summary: ''
 index: 3
 
