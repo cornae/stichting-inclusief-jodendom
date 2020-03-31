@@ -8,7 +8,7 @@ summary: "De Stichting Inclusief Jodendom stelt zich ten doel het Jodendom voor 
 ---
 De stichting tracht haar doel te bereiken onder meer door:
 
-* het organiseren, faciliteren en financieel mogelijk maken van de <a href="/open-synagoge" class="pat-inject" data-pat-inject="history: record">Open Synagoge Diensten</a>: diensten zoals die normaliter op vrijdagavond in progressieve synagogen worden gehouden. 
+* het organiseren, faciliteren en financieel mogelijk maken van de <a href="/open-synagoge" class="pat-inject" data-pat-inject="history: record">Open Synagoge Diensten</a>: diensten zoals die normaliter op vrijdagavond in progressieve synagogen worden gehouden.
 
   De Open Synagoge Diensten vinden in principe eenmaal per maand plaats door het hele land, en zijn bedoeld om een overwegend niet-joods publiek kennis te laten maken met het Jodendom zoals dat in niet-orthodoxe synagogen op erev Sjabbat (vrijdagavond) wordt vormgegeven;
 * het organiseren, faciliteren en financieel mogelijk maken van de zogeheten ‘<a href="/gioer" class="pat-inject" data-pat-inject="history: record">gioer-cursus</a>’, die wordt gegeven onder verantwoordelijkheid van rabbijn Tamarah Benima. De ‘gioer-cursus’ biedt deelnemers een traject dat in principe (maar niet gegarandeerd) leidt tot overgang tot het Jodendom. De cursus is mede toegankelijk voor anderen die belangstelling hebben voor het Jodendom;
