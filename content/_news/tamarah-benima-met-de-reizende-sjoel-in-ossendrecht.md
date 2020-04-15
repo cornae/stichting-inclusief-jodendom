@@ -22,6 +22,5 @@ summary: |-
   Tekst en foto’s: Leo den Heijer
 image: "/media/20180316_Oss_Sjoel_004.jpg"
 author: ''
-published: false
 
 ---
