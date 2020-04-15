@@ -4,8 +4,9 @@ date: 2020-04-15
 type: jekyll-posts
 parent: Nieuws
 title: Tamarah Benima met ‘De Reizende Sjoel’ in Ossendrecht
-summary: ''
-image: "/media/20180316_Oss_Sjoel_004.jpg"
+summary: Vrijdagavond (maart 2017) werd in de Protestantse kerk in Ossendrecht een
+  ‘Reizende Sjoel’, een reizende Joodse eredienst, gehouden.
+image: "/media/20180316_Oss_Sjoel_005.jpg"
 author: ''
 
 ---
