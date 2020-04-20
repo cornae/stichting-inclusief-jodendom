@@ -2,8 +2,9 @@
 layout: article
 title: Contact
 parent: Global navigation
+summary: "''Razend interessant, hier wil ik over praten'"
 
 ---
-Heeft u vragen over Stichting Inclusief Jodendom? Neem dan contact met ons op via: 
+Zo kun je ons bereiken: 
 
 [info@inclusiefjodendom.nl](mailto:info@inclusiefjodendom.nl).
