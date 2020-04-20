@@ -3,7 +3,7 @@ layout: article
 title: 'Hét boek: Sefer Tora'
 parent: Editorial lane
 icon: torah
-colour: rgb(58, 49, 252)
+colour: rgb(45, 35, 252)
 summary: Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
   beatae vitae dicta sunt explicabo.
 index: 4
