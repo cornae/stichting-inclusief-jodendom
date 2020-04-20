@@ -3,7 +3,7 @@ layout: article
 title: Giften
 parent: Editorial lane
 icon: worldwide
-colour: steelblue
+colour: rgb(111, 185, 247)
 summary: Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
   beatae vitae dicta sunt explicabo.
 index: 5
