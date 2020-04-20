@@ -1,10 +1,10 @@
 ---
 layout: article
-title: Open Synagoge Diensten
+title: De reizende sjoel
 summary: Een avond om het Jodendom te beleven.
 parent: Editorial lane
 icon: synagogue
-colour: rgb(79, 132, 134)
+colour: rgb(235, 113, 232)
 index: 1
 
 ---
