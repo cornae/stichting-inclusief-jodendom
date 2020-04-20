@@ -54,4 +54,5 @@ fields:
   hidden: true
   default: Nieuws
 pages:
+- content/_news/joods-leven-in-kampen.md
 - content/_news/tamarah-benima-met-de-reizende-sjoel-in-ossendrecht.md
