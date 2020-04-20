@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Over ons
+title: Dit is waar we voor staan
 parent: Global navigation
 summary: "De Stichting Inclusief Jodendom stelt zich ten doel het Jodendom voor zoveel
   mogelijk mensen \Ltoegankelijk te maken.\L"
