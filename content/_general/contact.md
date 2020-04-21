@@ -2,7 +2,7 @@
 layout: article
 title: Contact
 parent: Global navigation
-summary: "''Razend interessant, hier wil ik over praten'"
+summary: "''Heel erg interessant, hier wil ik over praten'"
 
 ---
 Zo kun je ons bereiken: 
