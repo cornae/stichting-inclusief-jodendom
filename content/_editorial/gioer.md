@@ -3,7 +3,7 @@ layout: article
 title: Gioer doen!
 parent: Editorial lane
 icon: study
-colour: rgb(210, 5, 252)
+colour: rgb(255, 127, 80)
 summary: Gioer doen! is bekering of overgang tot het Jodendom.
 index: 2
 
