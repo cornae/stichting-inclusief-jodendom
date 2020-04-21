@@ -4,13 +4,17 @@ title: 'Hét boek: Sefer Tora'
 parent: Editorial lane
 icon: torah
 colour: rgb(255, 165, 0)
-summary: Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-  beatae vitae dicta sunt explicabo.
+summary: 'De Tora zijn de eerste vijf boeken in de Hebreeuwse bijbel, ook wel aangeduid
+  als de boeken van Mosjé (Mozes). '
 index: 4
 
 ---
-![](/media/2018_11_OpenSyn_DSC_5878.jpeg)
+De gebruikelijke naam voor de verzameling heilige boeken in het Jodendom is Tenach. Het is een samentrekking van de woorden Tora (aanwijzing), Nevi'iem (profeten) en  Chetoebiem (geschriften - spreek het uit als "ketoebiem").
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Het lezen uit de Tora in de sjoel (synagoge) is een belangrijk onderdeel van de dienst. De Tora waaruit gelezen wordt is een rol van perkament die aan beide uiteinden is vastgemaakt aan twee stokken, die we bomen van het leven noemen. Als er niet uit de Tora wordt gelezen, zijn de stokken naar elkaar toe gerold en is de rol "aangekleed" met een rijk versierde mantel en siertorens op de bovenste uiteinden van de stokken. 
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+De rol perkament is handgeschreven en de verschillende stukken perkament zijn met de hand zorgvuldig aan elkaar geregen. De schrijvers v an de rollen zijn echte professionals en worden in het Hebreeuws "zij die tellen", of "zij die rekenen" genoemd. Die naam is te danken aan het feit dat zij, iedere keer wanneer zij een stuk tekst klaar hebben, het aantal letters tellen. Iedere rol moet identiek zijn aan de andere rollen. In principe is het dus zo dat het niet uitmaakt of je in de éne of de ándere sjoel een rol opent: qua tekst, stijl en indeling zijn zij gelijk. De schrijvers nemen het werk zo serieus, dat wanneer zij één letter verkeerd schrijven, zij de hele rol als onbruikbaar beschouwen. Dat heeft natuurlijk alles te maken met de inhoud van de tekst. Die is voor Joden zo heilig, dat de Tora behandeld wordt als het meest kostbare bezit. 
+
+In principe wordt er drie keer per week uit de Tora gelezen. Daarbij wordt deze uit de aron (kast) gehaald en door de sjoel rond gedragen zodat alle aanwezigen deze kunnen zien en aanraken. Vervolgens wordt de rol deels uitgerold, en nadat er uit is voorgelezen weer opgerold en aangekleed. Hoewel we ons kostbaarste bezit uiterst voorzichtig behandelen en zelfs met een speciaal aanwijzertje (een "jad") de tekst aanwijzen in plaats van met de vinger, is de perkamenten rol natuurlijk wel aan slijtage onderhevig. Wanneer een rol zo beschadigd is dat de rabbijn besluit dat deze niet meer voor gebruik geschikt is (we noemen dat pasoel), is er afhankelijk van de beschadiging(en) reparatie óf een nieuwe rol nodig. Door het arbeidsintensieve karakter van het werk om een rol te vervaardigen, zijn de kosten hiervoor aanzienlijk en voor een kleine gemeenschap drukt dit onevenredig op het vaak toch al beperkte budget. 
+
+De Stichting Inclusief Jodendom wil daarom ook proberen geld bij elkaar te krijgen om de gemeenschap van Beit Ha'Chidush te helpen het benodigde bedrag bij elkaar te krijgen voor de aanschaf van een nieuwe rol. 
