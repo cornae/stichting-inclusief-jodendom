@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Sidoeriem - gebedenboeken
+title: Gebedenboeken - siedoeriem
 parent: Editorial lane
 icon: books
-colour: rgb(5, 53, 250)
+colour: rgb(255, 140, 0)
 summary: 'Een van de dingen waar wij ons voor in willen zetten is de het ontwerpen
   en maken van nieuwe gebedenboeken die zowel gebruikt kunnen worden bij de Open Synagoge
   Diensten, als ook tijdens de diensten van de Joodse gemeente Beit Ha''Chidush. '
