@@ -1,14 +1,15 @@
 ---
 layout: article
-title: Giften
+title: Meehelpen en giften
 parent: Editorial lane
 icon: worldwide
 colour: rgb(255, 160, 122)
-summary: Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-  beatae vitae dicta sunt explicabo.
+summary: ''
 index: 5
 
 ---
-De Stichting Inclusief Jodendom ontvangt door de strikte scheiding van kerk en staat in Nederland geen subsidie. Hierdoor is de stichting afhankelijk van donaties en giften. 
+De Stichting Inclusief Jodendom kan iedere vorm van hulp gebruiken. Als stichting zonder winstoogmerk zien alle personen die hieraan verbonden zijn (bestuur, rabbijn en chazzan) af van financiële vergoedingen voor hun werkzaamheden. Alle geldelijke steun die de stichting ontvangt gaat naar de projecten die op deze website genoemd worden. 
 
-### Kopje
+De stichting ontvangt geen overheidssubsidie.
+
+ 
