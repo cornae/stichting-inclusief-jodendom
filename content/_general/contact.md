@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Zo kun je ons bereiken
+title: Contact
 parent: Global navigation
 summary: "''Heel erg interessant, hier wil ik over praten'"
 
