@@ -4,7 +4,7 @@ title: 'Gioer: jood worden'
 parent: Editorial lane
 icon: study
 colour: rgb(65, 117, 5)
-summary: Gioer doen is deel worden van het joodse volk.
+summary: Deel worden van het joodse volk kan, maar is geen sinecure.
 index: 2
 
 ---
