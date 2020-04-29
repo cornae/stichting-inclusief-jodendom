@@ -1,19 +1,19 @@
 ---
 layout: article
-title: Gioer doen!
+title: 'Gioer: jood worden'
 parent: Editorial lane
 icon: study
-colour: rgb(255, 127, 80)
-summary: Gioer doen! is bekering of overgang tot het Jodendom.
+colour: rgb(65, 117, 5)
+summary: Gioer doen is deel worden van het joodse volk.
 index: 2
 
 ---
-Deze Gioer opleiding is voor mensen die
+Het gioer traject is voor mensen die
 
-* joods willen uitkomen – voor mensen met een joodse achtergrond;
+* joods willen worden  – voor mensen met een joodse achtergrond;
 * willen toetreden tot het Jodendom – voor mensen die zich willen bekeren.
 
-Het doel is om de geer (leerling) te begeleiden en te ondersteunen bij het opbouwen van de joodse identiteit en de overgang naar het Jodendom.
+Het doel is om de 'leerling' te begeleiden en te ondersteunen bij het opbouwen van een joodse identiteit en de overgang naar het Jodendom.
 
 Het traject bestaat onder andere uit:
 
