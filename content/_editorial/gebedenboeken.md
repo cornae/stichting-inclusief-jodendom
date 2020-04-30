@@ -3,7 +3,7 @@ layout: article
 title: Gebedenboeken
 parent: Editorial lane
 icon: books
-colour: rgb(70, 130, 180)
+colour: rgb(83, 116, 218)
 summary: 'Een van de dingen waar wij ons voor in willen zetten is de het ontwerpen
   en maken van nieuwe gebedenboeken die gebruikt kunnen worden bij de Open Synagoge
   Diensten, en ook bij de diensten van de Joodse gemeente Beit Ha''Chidush in Amsterdam. '
