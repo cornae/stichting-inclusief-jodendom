@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Gebedenboeken - siedoeriem
+title: Gebedenboeken
 parent: Editorial lane
 icon: books
 colour: rgb(70, 130, 180)
