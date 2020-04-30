@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'Open Synagoge Diensten:                     samen de sjabbat verwelkomen. '
+title: 'Open Synagoge Diensten: samen sjabbat verwelkomen'
 summary: Een avond om het Jodendom te beleven.
 parent: Editorial lane
 icon: synagogue
