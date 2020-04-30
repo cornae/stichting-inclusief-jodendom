@@ -4,7 +4,7 @@ title: De reizende sjoel
 summary: Een avond om het Jodendom te beleven.
 parent: Editorial lane
 icon: synagogue
-colour: rgb(25, 25, 112)
+colour: rgb(72, 61, 139)
 index: 1
 
 ---
