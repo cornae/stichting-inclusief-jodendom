@@ -2,7 +2,7 @@
 layout: article
 title: Contact
 parent: Global navigation
-summary: "''Heel erg interessant, hier wil ik over praten'"
+summary: Zo kun je ons bereiken.
 
 ---
 Je kan ons schrijven en de e-mail verzenden aan:
