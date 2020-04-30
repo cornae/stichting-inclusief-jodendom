@@ -3,7 +3,7 @@ layout: article
 title: Meehelpen en giften
 parent: Editorial lane
 icon: worldwide
-colour: rgb(100, 149, 237)
+colour: rgb(0, 128, 128)
 summary: ''
 index: 5
 
