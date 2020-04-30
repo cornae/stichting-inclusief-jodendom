@@ -24,10 +24,10 @@ Het traject bestaat onder andere uit:
 * kennis over Hebreeuwse of Jiddische termen of uitdrukkingen;
 * de Torah (en Tenach in het algemeen) en hoe die wordt bestudeerd.
 
-Gioer doen! wordt gegeven door onze vaste leerkrachten en gast-docenten. Deze intensieve opleiding duurt 2 jaar.
+De opleiding wordt gegeven door onze vaste leerkrachten en gast-docenten. Deze intensieve opleiding duurt 2 jaar.
 
 De kosten voor deze opleiding is xx exclusief btw.
 
-Gioer doen! wordt afgesloten door Bet Din, het rabbijnen-college. Hier wordt bepaald of de geer toe is om over te gaan tot het Jodendom en onderdeel wordt van het Joodse volk.
+Het gioer traject wordt afgesloten door een bijeenkomst bij het Bet Din, het rabbijnen-college. Hier wordt bepaald of de geer toe is om over te gaan tot het Jodendom en onderdeel wordt van het Joodse volk.
 
-_Leren of kennis opdoen is in het Jodendom een continue proces. Leren gaat het leven lang door. De Stichting Inclusief Jodendom stelt daarom bijvoorbeeld ook lessen open voor mensen uit de joodse gemeenschap die hun kennis willen verbreden. Meer informatie hierover kan je vinden op …....._
+_Leren of kennis opdoen is in het Jodendom een continue proces. Leren gaat het leven lang door. De Stichting Inclusief Jodendom stelt daarom bijvoorbeeld ook lessen open voor mensen uit de joodse gemeenschap die hun kennis willen verbreden. Meer informatie hierover kan je vinden op de website van Beit Ha'Chidush, waar telkens voorafgaand aan de lesdagen het inhoudelijke lesprogramma gepubliceerd zal worden: www.beithachidush.nl_
