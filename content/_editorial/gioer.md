@@ -3,7 +3,7 @@ layout: article
 title: 'Gioer: jood worden'
 parent: Editorial lane
 icon: study
-colour: rgb(68, 17, 119)
+colour: rgb(123, 104, 238)
 summary: Deel worden van het joodse volk kan, maar is geen sinecure.
 index: 2
 
