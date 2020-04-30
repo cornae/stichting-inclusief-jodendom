@@ -10,4 +10,4 @@ summary: 'Een van de dingen waar wij ons voor in willen zetten is de het ontwerp
 index: 3
 
 ---
-Ons doel is het ontwerpen van een gebedenboek dat is toegespitst op een breed publiek, zodat het voor iedereen iets te bieden of zelfs iets extra's heeft. Te denken valt aan duidelijke pictogrammen die aangeven of men zit of staat bij het ![](/media/20180316_Oss_Sjoel_004.jpg)
+Ons doel is het ontwerpen van een gebedenboek dat is toegespitst op een breed publiek, zodat het voor iedereen iets te bieden of zelfs iets extra's heeft. Te denken valt aan duidelijke pictogrammen die aangeven of men zit of staat bij het
