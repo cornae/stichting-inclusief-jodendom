@@ -4,7 +4,7 @@ title: 'Open Synagoge Diensten:                     samen de sjabbat verwelkomen
 summary: Een avond om het Jodendom te beleven.
 parent: Editorial lane
 icon: synagogue
-colour: rgb(106, 90, 205)
+colour: rgb(46, 139, 87)
 index: 1
 
 ---
