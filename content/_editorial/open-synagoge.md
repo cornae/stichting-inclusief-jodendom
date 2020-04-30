@@ -1,6 +1,6 @@
 ---
 layout: article
-title: De reizende sjoel
+title: 'Open Synagoge Diensten: samen de sjabbat verwelkomen. '
 summary: Een avond om het Jodendom te beleven.
 parent: Editorial lane
 icon: synagogue
