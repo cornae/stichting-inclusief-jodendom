@@ -6,7 +6,6 @@ title: 'De Stichting Inclusief Jodendom is een initiatief van rabbijn Tamarah Ma
 parent: Global navigation
 summary: "De Stichting Inclusief Jodendom stelt zich ten doel het Jodendom voor zoveel
   mogelijk mensen \Ltoegankelijk te maken.\L"
-published: false
 
 ---
 De stichting tracht haar doel te bereiken onder meer door:
