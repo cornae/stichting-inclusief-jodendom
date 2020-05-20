@@ -1,8 +1,6 @@
 ---
 layout: article
-title: 'De Stichting Inclusief Jodendom is een initiatief van rabbijn Tamarah Maionah
-  Benima. Het Bestuur wordt gevormd door rabbijn Benima (voorzitter), Bart van Gelder
-  (secretaris) en Diny Huijink (penningmeester). '
+title: Over ons
 parent: Global navigation
 summary: "De Stichting Inclusief Jodendom stelt zich ten doel het Jodendom voor zoveel
   mogelijk mensen \Ltoegankelijk te maken.\L"
