@@ -6,7 +6,7 @@ summary: "De Stichting Inclusief Jodendom stelt zich ten doel het Jodendom voor 
   mogelijk mensen \Ltoegankelijk te maken.\L"
 
 ---
-De stichting tracht haar doel te bereiken onder meer door:
+De Stichting tracht haar doel te bereiken onder meer door:
 
 * het organiseren, faciliteren en financieel mogelijk maken van de <a href="/open-synagoge" class="pat-inject" data-pat-inject="history: record">Open Synagoge Diensten</a>: diensten zoals die normaliter op vrijdagavond in progressieve synagogen worden gehouden.
 
