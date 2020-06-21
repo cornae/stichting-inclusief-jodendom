@@ -4,7 +4,7 @@ title: 'Open Synagoge Diensten: samen sjabbat verwelkomen'
 summary: Een avond om het Jodendom te beleven.
 parent: Editorial lane
 icon: synagogue
-colour: "#2d265e"
+colour: rgb(83, 141, 143)
 index: 1
 
 ---
@@ -18,7 +18,4 @@ De Open Synagoge Diensten zijn niet bedoeld als educatief project, maar als een 
 
 Het gaat om de ervaring van de avond als geheel. De inloop van 19.00 tot 19.30 met koffie, thee en lekkers is een integraal onderdeel van de avond. Zo ook het samenzijn na de dienst, van 21.00 tot 22.30 uur, met wijn, koffie, thee en fris en lekkers (zoet en hartig). De dienst zelf is van 19.30 uur tot 21.00 uur. Gebedenboeken zijn aanwezig, aanwijzingen helpen u door de avond heen, kledingvoorschriften zijn er niet, kosten ook niet.
 
-Data en plaatsen in 2020:
-
-* Amsterdam -19 juni;
-* Hoogezand of Sappemeer -17 juli.
+Data en plaatsen in 2020 en 2021: vanwege de corona-maatregelen zijn e Open Synagoge Diensten voorlopig opgeschort. Zodra het weer veilig is met grote groepen bijeen te komen, zullen zij weer worden gehouden.
