@@ -9,7 +9,6 @@ summary: 'Een van de dingen waar de Stichting zich voor willen inzetten is de he
   bij de Open Synagoge Diensten, en  bij de diensten van ondermeer de Joodse Gemeente
   Beit Ha''Chidush in Amsterdam. '
 index: 3
-published: false
 
 ---
 De siddoer (het gebedenboek) van Beit Ha'Chidush (BHC), die nu tijdens de Open Synagoge Diensten wordt gebruikt, is prachtig vormgegeven, maar heeft een onhandig formaat, omdat hij erg uitgebreid is, en daardoor zwaar.
