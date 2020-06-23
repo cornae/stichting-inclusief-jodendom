@@ -3,7 +3,7 @@ layout: article
 title: 'Hét boek: Sefer Tora'
 parent: Editorial lane
 icon: torah
-colour: rgb(65, 105, 225)
+colour: #53BA83
 summary: 'De Tora zijn de eerste vijf boeken in de Hebreeuwse bijbel, ook wel aangeduid
   als de boeken van Mosjé (Mozes) of als Choemasj (afgeleid van het Hebreeuwse woord
   voor ''vijf'') '

@@ -3,7 +3,7 @@ layout: article
 title: Gebedenboeken
 parent: Editorial lane
 icon: books
-colour: rgb(83, 116, 218)
+colour: #059B9A
 summary: 'Een van de dingen waar de Stichting zich voor willen inzetten is de het
   ontwerpen en maken van nieuwe gebedenboeken (siddoeriem) die gebruikt kunnen worden
   bij de Open Synagoge Diensten, en  bij de diensten van ondermeer de Joodse Gemeente
