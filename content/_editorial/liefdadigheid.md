@@ -10,7 +10,7 @@ index: 5
 ---
 De Stichting Inclusief Jodendom kan iedere vorm van hulp gebruiken. Als Stichting zonder winstoogmerk zien de personen die hieraan verbonden zijn (bestuur, rabbijn en chazzan) af van financiële vergoedingen voor hun werkzaamheden. Alle geldelijke steun die de Stichting ontvangt gaat naar de projecten die op deze website genoemd worden.
 
-De Stichting ontvangt geen overheidssubsidie. 
+De Stichting ontvangt geen overheidssubsidie.
 
 In het Jodendom geloven we in wederkerigheid. Een voorbeeld: een bakker heeft brood over aan het eind van de dag, geeft het aan de behoeftigen die daardoor niet hoeven stelen, er is dus minder politie nodig en minder belastinggeld, en dat geld gebruikt de klant weer om zo nu en dan wat extra's te kopen van de bakker.
 
@@ -20,7 +20,7 @@ We hopen oprecht dat ieder die deze Stichting een warm hart toedraagt een incide
 
 NL21 INGB 0007 9328 84 ten name van Stichting Inclusief Jodendom, onder vermelding van gift / donatie / bijdrage / hart onder de riem
 
-Al uw bijdragen zijn aftrekbaar van de belasting, aangezien de Stichting een ANBI-status heeft aangevraagd. 
+Al uw bijdragen zijn aftrekbaar van de belasting, aangezien de Stichting een ANBI-status heeft aangevraagd.
 
 _Hoe worden uw bijdragen besteed?_
 
@@ -30,4 +30,4 @@ Voor de gebedenboeken wordt een ontwerp gemaakt wat toegespitst is op een zeer u
 
 Een joodse gemeenschap kan niet zonder Sefer Tora. Om de joodse gemeenschap, Beit Ha'Chidush, te steunen die de rabbijn, chazzan en vaak ook meereizende Joden levert voor de reizende sjoel, wil de Stichting die gemeenschap financieel steunen bij de aanschaf van een nieuwe (tweede hands) Tora-rol of de reparatiekosten van de Torarollen die op dit moment in gebruik zijn bij Beit Ha'Chidush. (Zie daar).
 
-De Stichting is mede opgezet om het zogeheten gioer-traject onder te brengen, zodat dit financieel gezien zo transparant mogelijk verloopt. (Zie daar).
+De Stichting is mede opgezet om het zogeheten gioer-traject onder te brengen, zodat dit financieel gezien zo transparant mogelijk verloopt. (Zie daar). 
