@@ -7,4 +7,4 @@ summary: Zo kun je ons bereiken.
 ---
 Je kan ons schrijven en de e-mail verzenden aan:
 
-[info@inclusiefjodendom.nl](mailto:info@inclusiefjodendom.nl).
+tamarah@dds.nl
