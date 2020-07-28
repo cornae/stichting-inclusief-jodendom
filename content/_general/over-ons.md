@@ -21,9 +21,9 @@ De stichting heeft het maken van winst uitdrukkelijk niet ten doel.
 
 ### Bestuursleden
 
-* voorzitter: rabbijn Tamarah Benima
-* penningmeester: Berendina (Diny) Hijink
-* secretaris: Bart van Gelder
+* Voorzitter: rabbijn Tamarah Benima
+* Penningmeester: Berendina (Diny) Hijink
+* Secretaris: Bart van Gelder
 
 ### Locatie
 
