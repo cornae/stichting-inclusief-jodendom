@@ -7,4 +7,4 @@ summary: Zo kun je ons bereiken.
 ---
 Je kan ons schrijven en de e-mail verzenden aan:
 
-tamarah@dds.nl
+[tamarah@dds.nl](mailto:tamarah@dds.nl "tamarah@dds.nl").
