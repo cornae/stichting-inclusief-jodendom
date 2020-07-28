@@ -25,4 +25,11 @@ De stichting heeft het maken van winst uitdrukkelijk niet ten doel.
 * penningmeester: Berendina (Diny) Hijink
 * secretaris: Bart van Gelder
 
+### Locatie
+
 De Stichting is gevestigd in Amsterdam.
+
+### Algemeen
+
+* RSIN: 860765313
+* Bankrekeningnummer: NL21INGB0007932884
