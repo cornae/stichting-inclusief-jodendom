@@ -33,4 +33,4 @@ De Stichting is gevestigd in Amsterdam.
 
 * RSIN: 860765313
 * Bankrekeningnummer: NL21INGB0007932884
-* KVK: KVK 76709116
+* KVK: 76709116
