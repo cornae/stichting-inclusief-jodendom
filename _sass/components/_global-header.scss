@@ -57,6 +57,10 @@
         font-weight: bold;
         display: inline-block;
 
+        h1 {
+            font-size: 1em;
+        }
+
         @include screen-size(large) {
             padding-top: 20px;
             padding-bottom: 20px;

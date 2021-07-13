@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
     <head>
-        <meta charset="UTF-8"/>
-        <meta name="Description" CONTENT="{{ page.description }}">
+        <meta 
+            charset="UTF-8"/>
+        <meta 
+            name="Description" 
+            CONTENT="{{ page.description }}">
         <title>{{ page.title }} — {{ site.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" media="screen" type="text/css" href="/assets/style/base.css"/>
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1" />
+        <link 
+            rel="stylesheet" 
+            media="screen" 
+            type="text/css" 
+            href="/assets/style/base.css"/>
     </head>
-    <body class="{{ page.class }} layout-{{ page.layout }} template-{{ layout.template }} scroll-position-top">
-        <div id="main"
-             class="variation-{{ layout.template }}">
+    <body 
+        class="{{ page.class }} layout-{{ page.layout }} template-{{ layout.template }} scroll-position-top">
+        <div 
+            id="main"
+            class="variation-{{ layout.template }}">
             {{ content }}
         </div>
-        <div id="site-header" 
-             class="variation-{{ layout.template }}">
+        <div 
+            id="site-header" 
+            class="variation-{{ layout.template }}">
             <div class="container">
-                <a href="/" 
-                   class="logo pat-inject" 
-                   data-pat-inject="history: record"
-                   id="site-logo">
-                    Stichting Inclusief Jodendom
+                <a 
+                    href="/" 
+                    class="logo pat-inject" 
+                    data-pat-inject="history: record"
+                    id="site-logo">
+                    {% if page.layout == 'homepage' %}
+                        <h1>Stichting Inclusief Jodendom</h1>
+                    {% else %} 
+                        Stichting Inclusief Jodendom
+                    {% endif %}
                 </a>
-                <nav id="global-nav">
+                <nav 
+                    id="global-nav">
                     {% for item in site.general %}
-                      <a class="global-nav-item pat-inject" 
-                         data-pat-inject="history: record" 
-                         href="{{ item.url }}">{{ item.title }}</a>
+                        <a 
+                            class="global-nav-item pat-inject" 
+                            data-pat-inject="history: record" 
+                            href="{{ item.url }}">{{ item.title }}</a>
                     {% endfor %}
                 </nav>
             </div>
         </div>
-        <a hidden 
-           href="#site-logo" 
-           class="pat-scroll" 
-           data-pat-scroll="selector: body; trigger: auto">Naar boven</a>
-        <script src="/assets/script/bundle.min.js" type="text/javascript"></script>
+        <a 
+            hidden 
+            href="#site-logo" 
+            class="pat-scroll" 
+            data-pat-scroll="selector: body; trigger: auto">Naar boven</a>
+        <script 
+            src="/assets/script/bundle.min.js" 
+            type="text/javascript"></script>
     </body>
 </html>
