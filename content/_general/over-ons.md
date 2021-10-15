@@ -37,12 +37,4 @@ De Stichting is gevestigd in Amsterdam.
 
 ## Jaarverslag en jaarrekening 2020 Stichting Inclusief Jodendom
 
-De covid-19-pandemie, sinds maart 2020, is ook aan de Stichting Inclusief Jodendom niet voorbij gegaan; de gevolgen waren groot, tot op de huidige dag. Veel activiteiten waren (en zijn nog steeds) onmogelijk, zoals de Open Synagoge Diensten. Andere – het gioer-traject en de organisatie van de Maandagavondlezingen in het kader daarvan - konden en kunnen doorgang vinden via een aangepast format; zowel de gioerlessen als de Maandagavondlezingen werden gegeven via zoom. 
-
-Tevens was de pandemie ingrijpend voor de bij de Stichting betrokken personen: het bestuur en medewerkers. Behalve dat zij te maken kregen met ziekte, was (en is) het dagelijks leven van de bestuursleden in hoge mate aan verandering onderhevig. Aanpassing aan de omstandigheden was leidraad en bemoeilijkte het werk van betrokkenen. 
-Een bijkomende factor is dat de Stichting nog maar korte tijd bestond toen het nieuwe corona-virus op het toneel verscheen: een periode van opbouw werd in de kiem gesmoord.
-
-Dit alles heeft ertoe geleid dat het jaarverslag 2020 van de Stichting, alsmede de jaarrekening, nog even op zich laten wachten. Deze zullen, volgens de door de overheid bepaalde termijn, binnen vier maanden alsnog worden gepubliceerd. 
-
-Namens het bestuur,  
-rabbijn Tamarah Benima, voorzitter.
+- [Jaarverslag 2020](/media/jaarverslagen/Jaarverslag-Stichting-Inclusief-Jodendom-2020.pdf)
