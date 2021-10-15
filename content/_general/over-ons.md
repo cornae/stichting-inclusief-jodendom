@@ -35,6 +35,6 @@ De Stichting is gevestigd in Amsterdam.
 * Bankrekeningnummer: NL21INGB0007932884
 * KVK: 76709116
 
-## Jaarverslag en jaarrekening 2020 Stichting Inclusief Jodendom
+## Jaarverslagen en -rekeningen
 
 - [Jaarverslag 2020](/media/jaarverslagen/Jaarverslag-Stichting-Inclusief-Jodendom-2020.pdf)
