@@ -37,6 +37,9 @@ De Stichting is gevestigd in Amsterdam.
 
 ## Jaarverslagen en -rekeningen
 
+- [Jaarverslag 2022](/media/jaarverslagen/Jaarverslag-Stichting-Inclusief-Jodendom-2022.pdf)
+- [Staat van baten en lasten 2022](/media/jaarverslagen/baten-en-lasten-2022.pdf)
+
 - [Jaarverslag 2021](/media/jaarverslagen/Jaarverslag-Stichting-Inclusief-Jodendom-2021.pdf)
 - [Staat van baten en lasten 2021](/media/jaarverslagen/baten-en-lasten-2021.pdf)
 
