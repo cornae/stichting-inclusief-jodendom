@@ -35,6 +35,10 @@ De Stichting is gevestigd in Amsterdam.
 * Bankrekeningnummer: NL21INGB0007932884
 * KVK: 76709116
 
+## Lezingen
+
+- [Overzicht van lezingen uit het verleden](/media/jaarverslagen/lezingen.pdf)
+
 ## Jaarverslagen en -rekeningen
 
 - [Jaarverslag 2023](/media/jaarverslagen/Jaarverslag-Stichting-Inclusief-Jodendom-2023.pdf)
