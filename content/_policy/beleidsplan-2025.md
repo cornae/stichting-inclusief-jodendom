@@ -1,15 +1,7 @@
 ---
 layout: article
-title: Beleidsplan
+title: Beleidsplan 2025
 ---
-
-Het beleidsplan van een ANBI moet inzicht geven in: 
-
-- de door de instelling te verrichten werkzaamheden ter verwezenlijking van haar doelstelling
-- de wijze van werving van inkomsten 
-- het beheer van het vermogen van de instelling en de besteding daarvan
-
-## Beleidsplan 2025
 
 * De gioer-cursussen (opleiding voor diegenen die Joods willen worden) zijn beëindigd. Daarmee is een belangrijke inkomstenbron weggevallen (zie hieronder, Financiën). 
 * De wekelijkse lezingen op maandagavond via Zoom zullen ook in het komend jaar doorgaan. Degenen die de lezingen verzorgen, krijgen een bescheiden vergoeding van 75,00 euro. 
@@ -33,7 +25,8 @@ In de uitnodigingen (per email) voor de maandagavond-lezingen (zie hierboven) is
 ### Voorgenomen bestedingen
 
 In ieder geval:
-- Lezingen: 2.500 euro
+
+- Lezingen: 2.500 euro;
 - Eerste sidoer, kosten: 10.000 euro. Een basisbedrag van 2.000 euro is beschikbaar.
 
 

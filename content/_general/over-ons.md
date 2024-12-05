@@ -35,7 +35,16 @@ De Stichting is gevestigd in Amsterdam.
 * Bankrekeningnummer: NL21INGB0007932884
 * KVK: 76709116
 
-{% include about-menu.html %}
+## Beleid
+
+Het beleidsplan van een ANBI moet inzicht geven in:
+
+- de door de instelling te verrichten werkzaamheden ter verwezenlijking van haar doelstelling;
+- de wijze van werving van inkomsten;
+- het beheer van het vermogen van de instelling en de besteding daarvan.
+
+### Beleidsplannen
+{% include policy-menu.html %}
 
 ## Lezingen
 
