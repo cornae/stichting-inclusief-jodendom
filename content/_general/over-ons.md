@@ -35,6 +35,8 @@ De Stichting is gevestigd in Amsterdam.
 * Bankrekeningnummer: NL21INGB0007932884
 * KVK: 76709116
 
+{% include about-menu.html %}
+
 ## Lezingen
 
 - [Overzicht van lezingen uit het verleden](/media/jaarverslagen/lezingen.pdf)

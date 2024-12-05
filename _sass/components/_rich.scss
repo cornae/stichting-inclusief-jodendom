@@ -101,5 +101,15 @@ $bullet-space: 20px;
 		margin-top: 1em;
 		margin-bottom: 1em;
 		text-align: left;
+		font-weight: bold;
+	}
+
+	h3 {
+		font-size: 1.2em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		text-align: left;
+		font-weight: normal;
+		letter-spacing: 1px;
 	}
 }

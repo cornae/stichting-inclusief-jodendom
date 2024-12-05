@@ -16,6 +16,8 @@ collections:
     output: true
   news:
     output: true
+  about:
+    output: true
 sass:
   style: :compressed
   load_paths:
