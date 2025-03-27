@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "patternslib": "https://github.com/Patternslib/Patterns.git",
-    "pat-content-mirror": "0.0.1"
+    "pat-content-mirror": "0.0.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",
