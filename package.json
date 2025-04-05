@@ -67,7 +67,7 @@
     "tar": "^4.4.10",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "union-value": "^2.0.1",
-    "underscore": "1.9.1",
+    "underscore": "1.12.1",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.3.1",
