@@ -63,7 +63,7 @@
     "postinstall-build": "^5.0.1",
     "puppeteer": "1.14.0",
     "script-loader": "^0.7.2",
-    "set-value": "^3.0.1",
+    "set-value": "^4.0.1",
     "tar": "^4.4.10",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "union-value": "^2.0.1",
